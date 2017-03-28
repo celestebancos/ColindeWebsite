@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+	.song {
+		flex-direction: column;
+	}
+
+	.Romanian, .English {
+		width: 100%;
+	}
+
+	.English {
+		order: 100;
+	}
+}

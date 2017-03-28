@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+p, h1, li, h3 {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h2, footer {
+	font-family: 'Sacramento', cursive;
+}
+
+body {
+	background-color: blanchedalmond;
+	color: #5A0000;
+}
+
+header {
+	margin: 20px;
+	border: 5px solid blanchedalmond;
+	outline: 20px solid maroon;
+	text-align: center;
+}
+
+main {
+	padding: 25px 50px;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+}
+
+p {
+	margin: 0px;
+	font-size: 14pt;
+	line-height: 130%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 25px;
+}
+
+ul {
+	padding: 20px 30px;
+}
+
+li {
+	list-style: none;
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+.border {
+	border: 5px solid maroon;
+	padding: 5px;
+}
+
+.song {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.stanza {
+	margin: 16px 0px;
+	text-align: center;
+}
+
+.Romanian, .English {
+	width: 50%;
+}
+
+.refrain {
+	margin-top: 10px;
+}
+
+.footnote {
+	max-width: 480px;
+	margin: 25px auto;
+	text-align: center;
+}
